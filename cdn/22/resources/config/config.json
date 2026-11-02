@@ -1,0 +1,442 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Scoring Engine",
+      "bodyBackgroundColor": "#ffffff",
+      "header": true,
+      "footer": false,
+      "oneByOneEffect": {
+        "type": "FADE_IN",
+        "option": {
+          "direction": null,
+          "start": "AFTER_PREVIOUS",
+          "parentMode": "ONE_BY_ONE",
+          "configType": "SLOW"
+        }
+      }
+    },
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_8"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "User Guide",
+      "header": true,
+      "footer": false,
+      "bodyBackgroundColor": "#ffffff"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "0.00%",
+            "right": "36.4%",
+            "top": "0.00%",
+            "bottom": "20.6%",
+            "width": "100.00%",
+            "height": "100.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_8": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.1%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "99.9%"
+          },
+          "widgetId": "widget_10",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "2.3%",
+            "right": "74.4%",
+            "top": "13.3%",
+            "bottom": "13.3%",
+            "width": "23.4%",
+            "height": "73.3%"
+          },
+          "widgetId": "widget_8",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": true
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "76.6%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "23.4%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_9",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_11": {
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "2px",
+            "width": "8px",
+            "height": "500px"
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        }
+      }
+    }
+  },
+  "exbVersion": "1.16.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/shared-theme/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_8": {
+      "uri": "widgets/common/image/",
+      "version": "1.16.0",
+      "label": "Image 3",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_6/1705001913764.png",
+            "originalUrl": "${appResourceUrl}/images/widget_6/1705001913764.png",
+            "fileName": "1705001913764.png",
+            "originalName": "MAGLogo.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1705001913764",
+            "isUseCompress": false,
+            "originalWidth": 300,
+            "originalHeight": 46,
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imageFillMode": "FIT",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_8",
+      "useDataSourcesEnabled": false
+    },
+    "widget_9": {
+      "uri": "widgets/common/menu/",
+      "version": "1.16.0",
+      "label": "Menu",
+      "config": {
+        "type": "nav",
+        "menuStyle": "pills",
+        "vertical": false,
+        "advanced": true,
+        "standard": {
+          "textAlign": "center",
+          "gap": "0px",
+          "showText": true,
+          "showIcon": false,
+          "iconPosition": "start"
+        },
+        "variant": {
+          "size": {
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "paddingX": "1rem",
+            "paddingY": "0.25rem"
+          },
+          "gutter": "0.25rem",
+          "icon": {
+            "spacing": "0.5rem"
+          },
+          "root": {
+            "borderRadius": "50rem"
+          },
+          "item": {
+            "default": {
+              "color": "var(--primary)",
+              "border": {
+                "type": "solid",
+                "color": "var(--primary)",
+                "width": "1px"
+              },
+              "borderRadius": "6.25rem",
+              "icon": {
+                "size": "14px"
+              },
+              "size": "14px"
+            },
+            "hover": {
+              "color": "#009eae",
+              "borderRadius": "6.25rem",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "14px"
+              },
+              "size": "14px"
+            },
+            "active": {
+              "color": "#fff",
+              "bg": "var(--primary)",
+              "borderRadius": "6.25rem",
+              "icon": {
+                "color": "var(--white)",
+                "size": "14px"
+              },
+              "size": "14px"
+            },
+            "disabled": {
+              "color": "#989898",
+              "shadow": "none",
+              "borderRadius": "6.25rem"
+            }
+          }
+        },
+        "paper": {
+          "bg": "#f0f0f0",
+          "color": "#050505",
+          "paddingX": 0,
+          "paddingY": 0,
+          "border": {
+            "width": 0,
+            "color": "transparent"
+          }
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/layout/row/",
+      "version": "1.16.0",
+      "label": "Row",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_10",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_11"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_11": {
+      "uri": "widgets/ScoringEngineUserGuide/",
+      "version": "1.11.0",
+      "label": "Scoring Engine User Guide",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_11"
+    },
+    "widget_12": {
+      "uri": "widgets/ScoringEngineParent/",
+      "version": "1.11.0",
+      "label": "MAG Scoring Engine Parent",
+      "config": {
+        "boundaryLayerID": "ded4e34a74b34a62bc33e038e6ef7f9f",
+        "dataLayerTableID": "93a451396cb247fbabc5a6a03398324f",
+        "pmTableID": "8aa8316a102f4cc48b622ad4ddd723b8",
+        "webMapID": "0c5ef8101a824006b537b703a9d615d4",
+        "featureServiceUrl": "c42ee70067d4414b9819b5b7e645eca2",
+        "dataLayerIndex": 2,
+        "pmTableIndex": 1,
+        "scoringEngineItemId": "c42ee70067d4414b9819b5b7e645eca2"
+      },
+      "id": "widget_12",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
+        }
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "Scoring Engine Web Map",
+      "itemId": "0c5ef8101a824006b537b703a9d615d4",
+      "portalUrl": "https://azmag.maps.arcgis.com"
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://azmag.maps.arcgis.com"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#108284",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#ffffff",
+      "color": "#000000",
+      "link": "#0000ff"
+    },
+    "button": {
+      "bg": "#055861",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://azmag.maps.arcgis.com/sharing/rest/content/items/a5ce789cf05e45f784fed40e123ac2ec/data",
+      "link": "http://www.azmag.gov"
+    }
+  },
+  "originExbVersion": "1.16.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_1": []
+    }
+  ],
+  "timestamp": 1734728342835,
+  "customTheme": {},
+  "header": {
+    "layout": {
+      "LARGE": "layout_9"
+    },
+    "height": {
+      "LARGE": 75
+    },
+    "backgroundColor": "#ffffff"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_10"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  }
+}

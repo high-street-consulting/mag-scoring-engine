@@ -1,0 +1,25 @@
+{
+  "name": "ScoringEngineParent",
+  "label": "ScoringEngineParent",
+  "type": "widget",
+  "version": "1.11.0",
+  "exbVersion": "1.11.0",
+  "author": "Chapman Munn High Street",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true,
+    "hasConfig": true,
+    "supportDataAction": false,
+    "canCreateMapView": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  },
+  "dependency": "jimu-arcgis"
+}

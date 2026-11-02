@@ -1,0 +1,30 @@
+{
+  "1705001913764": {
+    "originalName": "MAGLogo.png",
+    "fileName": "1705001913764.png",
+    "size": 11290,
+    "url": "${appResourceUrl}/images/widget_6/1705001913764.png",
+    "created": 1705001913764,
+    "resourcesPrefix": "images/widget_6",
+    "referedIds": [],
+    "originId": "1705001913764",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 300,
+    "originalHeight": 46
+  },
+  "1705406883760": {
+    "originalName": "MAG-Scoring-Engine-logo-horizontal.png",
+    "fileName": "1705406883760.png",
+    "size": 29687,
+    "url": "${appResourceUrl}/images/widget_7/1705406883760.png",
+    "created": 1705406883760,
+    "resourcesPrefix": "images/widget_7",
+    "referedIds": [],
+    "originId": "1705406883760",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 2259,
+    "originalHeight": 400
+  }
+}
